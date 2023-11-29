@@ -23,7 +23,7 @@
  To apply a shadow on a view, please see and use the C methods @c MDCConfigureShadowForView and
  @c MDCConfigureShadowForViewWithPath.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCShadowsCollection : NSObject
+@interface MDCShadowsCollection : NSObject
 
 - (nonnull instancetype)init NS_UNAVAILABLE;
 
@@ -49,7 +49,7 @@ __attribute__((objc_subclassing_restricted)) @interface MDCShadowsCollection : N
  To ensure no nullability situations, please instantiate the builder using @c
  builderWithShadow:forElevation and provide an initial MDCShadow instance.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCShadowsCollectionBuilder : NSObject
+@interface MDCShadowsCollectionBuilder : NSObject
 
 - (nonnull instancetype)init NS_UNAVAILABLE;
 

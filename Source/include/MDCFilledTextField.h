@@ -19,7 +19,7 @@
 /**
  An implementation of a Material filled text field.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCFilledTextField : MDCBaseTextField
+@interface MDCFilledTextField : MDCBaseTextField
 
 /**
  MDCFilledTextField does not support UITextBorderStyle borders.

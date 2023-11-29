@@ -44,7 +44,7 @@
  MDCContainerScheme is a class conforming to MDCContainerScheming that contains
  schemes values for theming systems.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCContainerScheme
+@interface MDCContainerScheme
     : NSObject<MDCContainerScheming>
 
 /**

@@ -42,7 +42,7 @@
  in a sheet from the bottom.
 
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCActionSheetController
+@interface MDCActionSheetController
     : UIViewController<MDCElevatable, MDCElevationOverriding>
 
 /**

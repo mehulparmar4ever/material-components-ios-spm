@@ -19,7 +19,7 @@
 
  To generate a shadow instance, please use the MDCShadowBuilder APIs.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCShadow : NSObject
+@interface MDCShadow : NSObject
 
 - (nonnull instancetype)init NS_UNAVAILABLE;
 
@@ -37,7 +37,7 @@ __attribute__((objc_subclassing_restricted)) @interface MDCShadow : NSObject
 /**
  Mutable builder to construct immutable `MDCShadow` objects.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCShadowBuilder : NSObject
+@interface MDCShadowBuilder : NSObject
 
 /** CALayer.shadowOpacity */
 @property(nonatomic) CGFloat opacity;

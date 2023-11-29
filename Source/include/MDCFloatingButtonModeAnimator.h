@@ -22,7 +22,7 @@
 /**
  Animates an MDCFloatingButton's mode.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCFloatingButtonModeAnimator : NSObject
+@interface MDCFloatingButtonModeAnimator : NSObject
 
 - (nonnull instancetype)initWithTitleLabel:(nonnull UILabel *)titleLabel
                    titleLabelContainerView:(nonnull UIView *)titleLabelContainerView

@@ -45,7 +45,7 @@ typedef NS_OPTIONS(NSInteger, MDCRippleState) {
  should be used when one wants to leverage the Material state system and should ideally be
  configured/set alongside the UIKit APIs (i.e. UIControlState or cell's setSelected/setHighlighted).
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCStatefulRippleView : MDCRippleView
+@interface MDCStatefulRippleView : MDCRippleView
 
 /**
  This BOOL is set to YES if the ripple is currently selected, or NO otherwise.

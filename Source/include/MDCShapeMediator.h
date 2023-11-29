@@ -32,7 +32,7 @@
  overriding the layerClass and subclassing MDCShadowLayer, which are both behaviors we want to no
  longer support due to their complexity and constraints.
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCShapeMediator : NSObject
+@interface MDCShapeMediator : NSObject
 
 - (nonnull instancetype)init NS_UNAVAILABLE;
 

@@ -65,7 +65,7 @@ typedef NS_ENUM(NSUInteger, MDCTabBarViewLayoutStyle) {
 /**
  An implementation of Material Tabs (https://material.io/design/components/tabs.html).
  */
-__attribute__((objc_subclassing_restricted)) @interface MDCTabBarView : UIScrollView
+@interface MDCTabBarView : UIScrollView
 
 /** The set of items displayed in the Tab bar. */
 @property(nonnull, nonatomic, copy) NSArray<UITabBarItem *> *items;
