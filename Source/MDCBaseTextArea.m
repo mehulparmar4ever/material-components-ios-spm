@@ -15,11 +15,11 @@
 #import "MDCBaseTextArea.h"
 
 #import <CoreGraphics/CoreGraphics.h>
-#import <MDFInternationalization/MDFInternationalization.h>
+#import "MDFInternationalization.h"
 #import <QuartzCore/QuartzCore.h>
 
-#import "private/MDCBaseTextAreaLayout.h"
-#import "private/MDCBaseTextAreaTextView.h"
+#import "MDCBaseTextAreaLayout.h"
+#import "MDCBaseTextAreaTextView.h"
 #import "MDCBaseTextAreaDelegate.h"
 #import "MDCTextControlLabelBehavior.h"
 #import "MDCTextControlState.h"
