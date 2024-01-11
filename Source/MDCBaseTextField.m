@@ -18,7 +18,7 @@
 
 #import "MaterialTextControls+Enums.h"
 #import "MDCTextControlAssistiveLabelDrawPriority.h"
-#import "MDFInternationalization.h"
+#import <MDFInternationalization/MDFInternationalization.h>
 
 #import "MDCBaseTextFieldDelegate.h"
 #import "MaterialTextControlsPrivate+BaseStyle.h"

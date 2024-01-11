@@ -14,10 +14,10 @@
 
 #import "MDCTabBarView.h"
 
-#import "MDCTabBarViewIndicatorView.h"
-#import "MDCTabBarViewItemView.h"
-#import "MDCTabBarViewItemViewDelegate.h"
-#import "MDCTabBarViewPrivateIndicatorContext.h"
+#import "private/MDCTabBarViewIndicatorView.h"
+#import "private/MDCTabBarViewItemView.h"
+#import "private/MDCTabBarViewItemViewDelegate.h"
+#import "private/MDCTabBarViewPrivateIndicatorContext.h"
 #import "MaterialRipple.h"
 #import "MDCTabBarItemCustomViewing.h"
 #import "MDCTabBarViewCustomViewable.h"
@@ -28,7 +28,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
 #import "MaterialAnimationTiming.h"  // ComponentImport
-#import "MDFInternationalization.h"
+#import <MDFInternationalization/MDFInternationalization.h>
 
 // KVO contexts
 static char *const kKVOContextMDCTabBarView = "kKVOContextMDCTabBarView";

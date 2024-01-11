@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #import "MDCStatefulRippleView.h"
-#import "MDCRippleLayer.h"
+#import "private/MDCRippleLayer.h"
 
 static const CGFloat kDefaultRippleAlpha = (CGFloat)0.12;
 static const CGFloat kDefaultRippleSelectedAlpha = (CGFloat)0.08;
